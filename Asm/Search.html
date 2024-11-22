@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Village</title>
+    <link rel="stylesheet" href="Search.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="container">
+        <!-- Logo Section -->
+        <div class="text-center py-3 border-bottom">
+            <a href="Home.html" class="h5 text-dark text-decoration-none">Flower Village - Tradition</a>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Home.html"><i class="fa-solid fa-house-chimney"></i> Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="topicDropdown" data-bs-toggle="dropdown">Topic</a>
+                            <ul class="dropdown-menu" aria-labelledby="topicDropdown">
+                                <li><a class="dropdown-item" href="#">Love Flowers</a></li>
+                                <li><a class="dropdown-item" href="#">Congratulatory Flowers</a></li>
+                                <li><a class="dropdown-item" href="#">Birthday Flowers</a></li>
+                                <li><a class="dropdown-item" href="#">Condolence Flowers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Search.html">Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="flowerTypeDropdown" data-bs-toggle="dropdown">Flower Type</a>
+                            <ul class="dropdown-menu" aria-labelledby="flowerTypeDropdown">
+                                <li><a class="dropdown-item" href="#">Carnation</a></li>
+                                <li><a class="dropdown-item" href="#">Chrysanthemum</a></li>
+                                <li><a class="dropdown-item" href="#">Star Flowers</a></li>
+                                <li><a class="dropdown-item" href="#">Aster</a></li>
+                                <li><a class="dropdown-item" href="#">Rose</a></li>
+                                <li><a class="dropdown-item" href="#">Pink Baby</a></li>
+                                <li><a class="dropdown-item" href="#">Lily</a></li>
+                                <li><a class="dropdown-item" href="#">Orchid</a></li>
+                                <li><a class="dropdown-item" href="#">Phalaenopsis</a></li>
+                                <li><a class="dropdown-item" href="#">Snapdragon</a></li>
+                                <li><a class="dropdown-item" href="#">Mimi Flower</a></li>
+                                <li><a class="dropdown-item" href="#">Succulent</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="colorDropdown" data-bs-toggle="dropdown">Color</a>
+                            <ul class="dropdown-menu" aria-labelledby="colorDropdown">
+                                <li><a class="dropdown-item" href="#">Pink</a></li>
+                                <li><a class="dropdown-item" href="#">White</a></li>
+                                <li><a class="dropdown-item" href="#">Purple</a></li>
+                                <li><a class="dropdown-item" href="#">Yellow</a></li>
+                                <li><a class="dropdown-item" href="#">Blue</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Search -->
+                    <form class="d-flex ms-auto">
+                        <input class="form-control me-2" type="search" placeholder="Search">
+                        <a href="Order.html" class="btn btn-outline-primary"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <script src="Search.js"></script>
+                    </form>                    
+                    <!-- Login/Register -->
+                    <div class="d-flex align-items-center ms-3">
+                        <i class="fa-regular fa-circle-user me-2"></i>
+                        <a href="Login.html" class="text-decoration-none me-1">Login</a>
+                        <span>/</span>
+                        <a href="Register.html" class="text-decoration-none ms-1">Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container py-4">
+        <section class="products-section">
+            <h2 class="section-title">Products Section:</h2>
+            <div class="products">
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/12526_bo-hoa-sao-tim.jpg" alt="Purple Star Flower Bouquet">
+                    <h3>Your Smile</h3>
+                    <p class="price">450,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/13260_yeu-thuong-dong-day.jpg" alt="Overflowing Love">
+                    <h3>Overflowing Love</h3>
+                    <p class="price">300,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/13252_tinh-co.jpg" alt="By Chance">
+                    <h3>By Chance</h3>
+                    <p class="price">150,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/14270_dating.jpg" alt="Dating">
+                    <h3>Dating</h3>
+                    <p class="price">250,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/huong-duong/2065_anh-duong.jpg" alt="Sunshine">
+                    <h3>Sunshine</h3>
+                    <p class="price">150,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Love Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/huong-duong/11591_summer-love.jpg" alt="Summer Love">
+                    <h3>Summer Love</h3>
+                    <p class="price">650,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-lan/10904_hoa-tang-su-kien-8-20-bo.jpg" alt="Event Gift Flowers">
+                    <h3>Event Gift Flowers</h3>
+                    <p class="price">288,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Love Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-tinh-yeu/13262_tinh-dau-tho-ngay.jpg" alt="First Love">
+                    <h3>First Love</h3>
+                    <p class="price">500,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Love Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-tinh-yeu/13372_nguoi-thuong.jpg" alt="Loved One">
+                    <h3>Loved One</h3>
+                    <p class="price">600,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-chuc-mung/11739_kem-hoa.jpg" alt="Cream Flowers">
+                    <h3>Cream Flowers</h3>
+                    <p class="price">280,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-lan/5277_manh-me-tien-buoc.jpg" alt="Boldly Moving Forward">
+                    <h3>Boldly Moving Forward</h3>
+                    <p class="price">2,000,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-lan/11030_dai-hong-phat.jpg" alt="Great Prosperity">
+                    <h3>Great Prosperity</h3>
+                    <p class="price">4,500,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-lan/7174_tam-cao-moi.jpg" alt="New Heights">
+                    <h3>New Heights</h3>
+                    <p class="price">1,500,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-chuc-mung/3199_yeu-xa.jpg" alt="Long Distance Love">
+                    <h3>Long Distance Love</h3>
+                    <p class="price">200,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-chuc-mung/13243_hoa-sen-da-31.jpg" alt="Succulent 31">
+                    <h3>Succulent 31</h3>
+                    <p class="price">550,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-chuc-mung/13291_my-tana.jpg" alt="My Tana">
+                    <h3>My Tana</h3>
+                    <p class="price">600,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-chuc-mung/5384_purple-love.jpg" alt="Purple Love">
+                    <h3>Purple Love</h3>
+                    <p class="price">1,800,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Love Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-lan/12346_nu-cuoi-cua-em.jpg" alt="Your Smile">
+                    <h3>Your Smile</h3>
+                    <p class="price">1,200,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Condolence Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-lan/5976_khoang-lang.jpg" alt="Silent Moments">
+                    <h3>Silent Moments</h3>
+                    <p class="price">2,500,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-lan/12704_hy-tuoc.jpg" alt="Joyous Tiding">
+                    <h3>Joyous Tiding</h3>
+                    <p class="price">600,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-chuc-mung/5598_gap-go.jpg" alt="Meeting">
+                    <h3>Meeting</h3>
+                    <p class="price">150,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-chuc-mung/9440_take-my-hand.jpg" alt="Take My Hand">
+                    <h3>Take My Hand</h3>
+                    <p class="price">150,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-chuc-mung/12602_love-forever.jpg" alt="Love Forever">
+                    <h3>Love Forever</h3>
+                    <p class="price">850,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-chuc-mung/10258_white-roses.jpg" alt="White Roses">
+                    <h3>White Roses</h3>
+                    <p class="price">350,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Love Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-tinh-yeu/2248_kieu-sa.jpg" alt="Graceful">
+                    <h3>Graceful</h3>
+                    <p class="price">2,200,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Love Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-tinh-yeu/8524_all-of-love.jpg.jpg" alt="All of Love">
+                    <h3>All of Love</h3>
+                    <p class="price">500,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/12666_my-girl.jpg" alt="My Girl">
+                    <h3>My Girl</h3>
+                    <p class="price">550,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/11444_sweetie.jpg" alt="Sweetie">
+                    <h3>Sweetie</h3>
+                    <p class="price">350,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/12596_back-to-love.jpg" alt="Back to Love">
+                    <h3>Back to Love</h3>
+                    <p class="price">300,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/12585_chi-minh-em.jpg" alt="Only You">
+                    <h3>Only You</h3>
+                    <p class="price">300,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/12665_dear-my-love.jpg" alt="Dear My Love">
+                    <h3>Your Smile</h3>
+                    <p class="price">450,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Love Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-tinh-yeu/13147_ke-chia-buon-05.jpg" alt="Condolence Stand 05">
+                    <h3>Condolence Stand 05</h3>
+                    <p class="price">700,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/4840_only-you.jpg" alt="Only You">
+                    <h3>Only You</h3>
+                    <p class="price">250,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/10693_pink-baby.jpg" alt="Pink Baby">
+                    <h3>Pink Baby</h3>
+                    <p class="price">1,200,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/8424_rustic.jpg" alt="Rustic">
+                    <h3>Rustic</h3>
+                    <p class="price">250,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-lan/11117_nghinh-xuan.jpg" alt="Welcoming Spring">
+                    <h3>Welcoming Spring</h3>
+                    <p class="price">828,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/11593_romantic-heart.jpg" alt="Romantic Heart">
+                    <h3>Romantic Heart</h3>
+                    <p class="price">500,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/12350_phut-giay-ly-biet.jpg" alt="Moment of Farewell">
+                    <h3>Moment of Farewell</h3>
+                    <p class="price">1,600,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-lan/13596_gio-xuan.jpg" alt="Spring Breeze">
+                    <h3>Spring Breeze</h3>
+                    <p class="price">650,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Congratulations Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-lan/13594_lan-ho-diep-mau-8.jpg" alt="Orchid Model 8">
+                    <h3>Orchid Model 8</h3>
+                    <p class="price">2,200,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/5125_ve-noi-xa.jpg" alt="Far Away">
+                    <h3>Far Away</h3>
+                    <p class="price">1,550,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-item" data-category="Birthday Flowers">
+                    <img src="https://hoayeuthuong.com/hinh-hoa-tuoi/thumb/hoa-sinh-nhat/5239_phut-chia-ly.jpg" alt="Moment of Parting">
+                    <h3>Moment of Parting</h3>
+                    <p class="price">1,000,000 VND</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <script src="productsSection.js"></script>
+                <script src="Search.js"></script>
+            </div>
+        </section>    
+    </main>
+
+
+    

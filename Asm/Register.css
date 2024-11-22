@@ -1,0 +1,113 @@
+/* Tổng thể */
+body {
+    background-image: url(https://ticotravel.com.vn/wp-content/uploads/2022/10/cho-hoa-Ho-Thi-Ky-5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc; /* Màu nền nhẹ nhàng */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao full màn hình */
+}
+
+h2 {
+    text-align: center;
+    color: #007bff; /* Màu xanh nổi bật */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #333;
+    padding-bottom: 15px;
+}
+
+/* Container của form */
+.form-container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* Form Elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select {
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input:focus, select:focus {
+    border-color: #007bff; /* Đổi màu viền khi chọn */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Màu tối hơn khi hover */
+}
+
+/* Liên kết chuyển hướng */
+.redirect {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.redirect a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.redirect a:hover {
+    color: #0056b3; /* Màu tối hơn khi hover */
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}

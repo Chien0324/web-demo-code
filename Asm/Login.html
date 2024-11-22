@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <script>
+        // Function to validate login
+        function validateLogin() {
+            var account = document.getElementById("account").value;
+            var password = document.getElementById("password").value;
+
+            // Check if the account exists in Local Storage
+            var user = localStorage.getItem(account);
+
+            if (user) {
+                // Parse the user data from Local Storage
+                user = JSON.parse(user);
+
+                // Check if the password matches
+                if (user.password === password) {
+                    document.getElementById("successMessage").style.display = "block";
+                    setTimeout(function() {
+                        window.location.href = "Home.html"; // Redirect to Home.html
+                    }, 2000);
+                } else {
+                    alert("Incorrect password. Please try again.");
+                }
+            } else {
+                alert("Account does not exist. Please register first.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Login</h2>
+            <form id="loginForm" onsubmit="event.preventDefault(); validateLogin();">
+                <label for="account"><b>Account:</b></label>
+                <input type="text" id="account" name="account" placeholder="Email or phone number" required>
+                
+                <label class="password" for="password"><b>Password:</b></label>
+                <input type="password" id="password" name="password" placeholder="6 to 8 characters" minlength="6" maxlength="8" required>
+                
+                <button type="button" onclick="validateLogin()">Login</button>
+            </form>
+            <div id="successMessage" style="display: none; color: green; margin-top: 15px;">Login successful!</div>
+        </div>
+        <div class="redirect">
+            <p>Don't have an account? <a href="Register.html">Sign up now</a></p>
+        </div>
+    </div>
+</body>
+</html>

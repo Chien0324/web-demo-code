@@ -1,0 +1,153 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-item {
+    max-width: 200px; /* Giới hạn chiều rộng cho từng sản phẩm */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá khung chứa */
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    font-size: 16px; /* Giới hạn kích cỡ chữ cho tên sản phẩm */
+    margin: 10px 0;
+}
+
+.product-item .price {
+    font-size: 14px; /* Kích thước chữ giá sản phẩm */
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-item button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* General Styles */
+body {
+    background-image: url(https://ticotravel.com.vn/wp-content/uploads/2022/10/cho-hoa-Ho-Thi-Ky-5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2{
+    text-align: center;
+}
+
+h3, h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #eee;
+}
+
+header .text-center {
+    padding: 15px 0;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+/* Navigation Menu */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.navbar-toggler {
+    border-color: #ddd;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #555;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Search Form */
+form.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+form input.form-control {
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+
+form button {
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+/* Login/Register Section */
+.d-flex.align-items-center i {
+    font-size: 20px;
+}
+
+.d-flex.align-items-center a {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.d-flex.align-items-center span {
+    color: #777;
+}
