@@ -51,10 +51,6 @@
 
 /* General Styles */
 body {
-    background-image: url(https://ticotravel.com.vn/wp-content/uploads/2022/10/cho-hoa-Ho-Thi-Ky-5.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     color: #333;
@@ -69,6 +65,7 @@ a {
 
 h2{
     text-align: center;
+    color: #777 !important;
 }
 
 h3, h5 {

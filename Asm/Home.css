@@ -1,9 +1,5 @@
 /* General Styles */
 body {
-    background-image: url(https://static.salekit.com/image/shop/2/source/cach-trang-tri-shop-hoa-tuoi.jpg);
-    background-size: cover; 
-    background-position: center; 
-    background-attachment: fixed;
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
     color: #333;
@@ -109,8 +105,8 @@ main .img-fluid {
 
 main h3 {
     margin-bottom: 20px;
-    font-size: 2rem;
-    color: #ef8977;
+    font-size: 32px;
+    color: #5f5856;
 }
 
 main .row .col-sm-3 {
