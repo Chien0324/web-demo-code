@@ -16,9 +16,9 @@ body {
 
 h2 {
     text-align: center;
-    color: #007bff; /* Màu xanh nổi bật */
+    color: #cc5fb3; /* Màu xanh nổi bật */
     margin-bottom: 20px;
-    border-bottom: 3px solid #333;
+    border-bottom: 3px solid #0a0a0a;
     padding-bottom: 15px;
 }
 
@@ -65,7 +65,7 @@ input:focus {
 
 /* Nút Login */
 button {
-    background-color: #007bff;
+    background-color: #0e5603;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -78,7 +78,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Màu tối hơn khi hover */
+    background-color: #e612ae; /* Màu tối hơn khi hover */
 }
 
 /* Tin nhắn thành công */

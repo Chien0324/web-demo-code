@@ -62,6 +62,6 @@ document.addEventListener("DOMContentLoaded", function () {
         // Hiển thị thông báo thành công
         document.getElementById('success-message').style.display = 'block';
     } else {
-        alert('Vui lòng điền đầy đủ thông tin.');
+        alert('Please fill in all information.');
     }
 });
